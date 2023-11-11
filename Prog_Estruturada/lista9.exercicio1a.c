@@ -20,7 +20,7 @@ typedef struct candidato {
     char nome[81]; /* nome do candidato */
     Data nasc; /* data de nascimento */
     Local *loc /* local de prova */
-     /* notas de prova */
+    Notas nt; /* notas de prova */
     Notas notas;
 } Candidato;
 
